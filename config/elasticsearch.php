@@ -16,6 +16,16 @@ return [
 
     'hosts' => [],
 
+    /**
+     * Elasticsearch Connection Username
+     */
+    'username' => '',
+
+    /**
+     * Elasticsearch Connection Password
+     */
+    'password' => '',
+
     /*
     |--------------------------------------------------------------------------
     | Elasticsearch Connection Pool
