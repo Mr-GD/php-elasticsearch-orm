@@ -38,7 +38,11 @@ class Factory
             ->setConnectionPool($config['connection_pool'])
             ->setSelector($config['selector'])
             ->setHosts($config['hosts']);
-
+        
+        if (!empty($config['username']) && !empty($config['password'])) {
+            $clientBuilder->setBasicAuthentication($config['username'], $config['password']);
+        }
+        
         if (!empty($config['open_log'])) {
             $clientBuilder->setLogger(
                 $logger ?? new EmptyLogger()
