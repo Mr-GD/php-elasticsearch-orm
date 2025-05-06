@@ -1,6 +1,6 @@
 {
     "name": "vae/php-elasticsearch-orm",
-    "description": "Adapt the orm query method of elasticsearch for >=php7.4",
+    "description": "Adapt the orm query method of elasticsearch for >=php8.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -20,7 +20,7 @@
         }
     },
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.2",
         "illuminate/support": "^5.3|^6.0|^7.0|^8.0|^9.0|^10.0",
         "elasticsearch/elasticsearch": "^7.0",
         "ramsey/uuid": "^4.1"
