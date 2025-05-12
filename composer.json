@@ -1,6 +1,6 @@
 {
     "name": "gong/tool/vae/php-elasticsearch-orm",
-    "description": "Adapt the orm query method of elasticsearch for >=php8.2",
+    "description": "For personal use only",
     "type": "library",
     "license": "MIT",
     "authors": [
