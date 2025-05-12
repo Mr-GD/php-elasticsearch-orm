@@ -1,5 +1,5 @@
 {
-    "name": "gong/tool/vae/php-elasticsearch-orm",
+    "name": "gong/php-elasticsearch-orm",
     "description": "For personal use only",
     "type": "library",
     "license": "MIT",
